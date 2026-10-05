@@ -1,0 +1,61 @@
+PARA ABRIR LA WEB: extraé primero todo el ZIP (clic derecho > Extraer todo).
+Abrí pop-art/index.html desde la carpeta extraída. No lo abras dentro del ZIP.
+También podés abrir vista-previa.html, que incluye CSS y JavaScript en un solo archivo.
+
+Guardá tus imágenes JPG con estos nombres exactos. Las carpetas ya están creadas.
+
+LÍNEA DE TIEMPO (dentro de imagenes/):
+1950-origen.jpg
+1960-explosion.jpg
+1970-expansion.jpg
+hoy-legado.jpg
+
+RETRATOS (dentro de imagenes/artistas/):
+andy-warhol.jpg
+roy-lichtenstein.jpg
+richard-hamilton.jpg
+claes-oldenburg.jpg
+
+OBRAS DESTACADAS (dentro de imagenes/obras/):
+campbells-soup-cans.jpg
+whaam.jpg
+just-what-is-it.jpg
+floor-burger.jpg
+
+Si tu archivo es PNG, cambia .jpg por .png también en index.html (retratos y miniaturas), y en script.js (obras ampliadas).
+
+GRID DE OBRAS PRINCIPALES (dentro de imagenes/obras-principales/):
+obra-01.jpg a obra-12.jpg (12 archivos; numeración con dos dígitos).
+Están organizadas en dos filas de seis, alrededor del título central.
+Cada posición tiene un título, artista, año y descripción en script.js:
+01 Campbell’s Soup Cans — Andy Warhol
+02 Whaam! — Roy Lichtenstein
+03 Marilyn Diptych — Andy Warhol
+04 Just what is it... — Richard Hamilton
+05 Floor Burger — Claes Oldenburg
+06 Drowning Girl — Roy Lichtenstein
+07 LOVE — Robert Indiana
+08 A Bigger Splash — David Hockney
+09 I Was a Rich Man’s Plaything — Eduardo Paolozzi
+10 Great American Nude, #57 — Tom Wesselmann
+11 F-111 — James Rosenquist
+12 Flag — Jasper Johns
+
+Los archivos que todavía no colocaste se mostrarán como IMG 01, IMG 02, etc.
+Cuando copies una foto con el nombre indicado y recargues la página, se activará el clic.
+
+GALERÍA (dentro de imagenes/galeria/):
+galeria-01.jpg — Brillo Soap Pads Box, Andy Warhol
+galeria-02.jpg — Flowers, Andy Warhol
+galeria-03.jpg — Look Mickey, Roy Lichtenstein
+galeria-04.jpg — Girl with Hair Ribbon, Roy Lichtenstein
+galeria-05.jpg — Glass Case with Pies, Claes Oldenburg
+galeria-06.jpg — Lipstick (Ascending) on Caterpillar Tracks, Claes Oldenburg
+galeria-07.jpg — Still Life #30, Tom Wesselmann
+galeria-08.jpg — On the Balcony, Peter Blake
+galeria-09.jpg — The Family, Marisol
+galeria-10.jpg — Soft Screw, Claes Oldenburg
+
+Cada imagen se amplía sola, sin descripción visible. El atributo alt en script.js
+indica qué obra va en cada casillero. Estas obras son distintas de las doce
+obras principales y de las miniaturas de la sección Artistas.

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffcc18">
+    <title>POP! — Un recorrido por el Pop Art</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Fredoka:wght@300..700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#que-es">Ir al contenido</a>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="POP, volver al inicio">POP<span>!</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">☰ <span>MENÚ</span></button>
+      <nav id="nav" class="nav" aria-label="Secciones">
+        <a href="#que-es">01 ¿QUÉ ES?</a>
+        <a href="#artistas">02 ARTISTAS</a>
+        <a href="#obras">03 OBRAS</a>
+        <a href="#galeria">04 GALERÍA</a>
+        <a href="#contacto">05 LET'S POP</a>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio" class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">ARTE · COLOR · CULTURA POP</p>
+          <h1 id="hero-title">¡ESTO ES<br><em>POP ART!</em></h1>
+          <p>El arte que convirtió lo cotidiano en extraordinario.</p>
+          <a class="btn" href="#que-es">EXPLORAR <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="burst">WOW!</div>
+          <div class="face">
+            <i class="eye one"></i>
+            <i class="eye two"></i>
+            <i class="mouth"></i>
+          </div>
+          <span class="sticker star">★</span>
+          <span class="sticker pow">POW!</span>
+        </div>
+        <span class="hero-side">DESLIZÁ PARA DESCUBRIR ↓</span>
+      </section>
+      <section id="que-es" class="section intro" aria-labelledby="intro-title">
+        <div class="section-top">
+          <span class="section-num">01 / 05</span>
+          <span class="section-label">EL MOVIMIENTO</span>
+        </div>
+        <h2 id="intro-title">¿QUÉ ES EL <span>POP ART?</span></h2>
+        <div class="intro-grid">
+          <div class="timeline">
+            <h3>UNA HISTORIA EN 4 MOMENTOS</h3>
+            <ol>
+              <li>
+                <div class="timeline-copy">
+                  <strong>1950s · ORIGEN</strong>
+                  <p>Surge en Reino Unido y Estados Unidos. Los artistas miran la publicidad, el cine y los objetos de consumo.</p>
+                </div>
+                <img src="imagenes/1950-origen.jpg" alt="" loading="lazy">
+              </li>
+              <li>
+                <div class="timeline-copy">
+                  <strong>1960s · EXPLOSIÓN</strong>
+                  <p>Las historietas, las estrellas y los productos cotidianos pasan a ocupar el centro de las obras.</p>
+                </div>
+                <img src="imagenes/1960-explosion.jpg" alt="" loading="lazy">
+              </li>
+              <li>
+                <div class="timeline-copy">
+                  <strong>1970s · EXPANSIÓN</strong>
+                  <p>Su lenguaje visual se extiende por el diseño, la moda y la gráfica.</p>
+                </div>
+                <img src="imagenes/1970-expansion.jpg" alt="" loading="lazy">
+              </li>
+              <li>
+                <div class="timeline-copy">
+                  <strong>HOY · LEGADO</strong>
+                  <p>Sus colores, repeticiones y guiños a la cultura popular siguen apareciendo en todo lo que vemos.</p>
+                </div>
+                <img src="imagenes/hoy-legado.jpg" alt="" loading="lazy">
+              </li>
+            </ol>
+          </div>
+          <div class="intro-note">
+            <div class="comic-art" aria-hidden="true">
+              <span>POP</span>
+              <b>★</b>
+            </div>
+            <p>El Pop Art tomó imágenes conocidas por todos y las transformó en arte: latas, cómics, celebridades y anuncios. Usó colores vibrantes, repetición e ironía para preguntarnos cómo consumimos imágenes.</p>
+            <strong>¡EL ARTE SALIÓ A LA CALLE!</strong>
+          </div>
+        </div>
+      </section>
+      <section id="artistas" class="section artists" aria-labelledby="artists-title">
+        <div class="section-top">
+          <span class="section-num">02 / 05</span>
+          <span class="section-label">LAS MENTES DETRÁS DEL COLOR</span>
+        </div>
+        <h2 id="artists-title">ARTISTAS <span>POP</span></h2>
+        <div class="artist-grid">
+          <article class="artist-card">
+            <div class="portrait portrait-warhol">
+              <img src="imagenes/artistas/andy-warhol.jpg" alt="" loading="lazy">
+            </div>
+            <div class="artist-content">
+              <span class="artist-index">01 / ÍCONO</span>
+              <h3>ANDY<br>WARHOL</h3>
+              <p>Convirtió la repetición y las celebridades en una pregunta sobre fama y consumo.</p>
+              <button class="artist-work" type="button" data-artist="warhol" aria-label="Ampliar CAMPBELL'S SOUP CANS de Andy Warhol"><img src="imagenes/obras/campbells-soup-cans.jpg" alt="CAMPBELL'S SOUP CANS de Andy Warhol" loading="lazy"><span>OBRA CLAVE: CAMPBELL'S SOUP CANS <b aria-hidden="true">↗</b></span></button>
+            </div>
+          </article>
+          <article class="artist-card">
+            <div class="portrait portrait-lichtenstein">
+              <img src="imagenes/artistas/roy-lichtenstein.jpg" alt="" loading="lazy">
+            </div>
+            <div class="artist-content">
+              <span class="artist-index">02 / CÓMIC</span>
+              <h3>ROY<br>LICHTENSTEIN</h3>
+              <p>Trasladó la estética de la historieta al lienzo con puntos, globos y contornos gruesos.</p>
+              <button class="artist-work" type="button" data-artist="lichtenstein" aria-label="Ampliar WHAAM! de Roy Lichtenstein"><img src="imagenes/obras/whaam.jpg" alt="WHAAM! de Roy Lichtenstein" loading="lazy"><span>OBRA CLAVE: WHAAM! <b aria-hidden="true">↗</b></span></button>
+            </div>
+          </article>
+          <article class="artist-card">
+            <div class="portrait portrait-hamilton">
+              <img src="imagenes/artistas/richard-hamilton.jpg" alt="" loading="lazy">
+            </div>
+            <div class="artist-content">
+              <span class="artist-index">03 / COLLAGE</span>
+              <h3>RICHARD<br>HAMILTON</h3>
+              <p>Mezcló recortes de publicidad para retratar el deseo y la vida moderna.</p>
+              <button class="artist-work" type="button" data-artist="hamilton" aria-label="Ampliar JUST WHAT IS IT... de Richard Hamilton"><img src="imagenes/obras/just-what-is-it.jpg" alt="JUST WHAT IS IT... de Richard Hamilton" loading="lazy"><span>OBRA CLAVE: JUST WHAT IS IT... <b aria-hidden="true">↗</b></span></button>
+            </div>
+          </article>
+          <article class="artist-card">
+            <div class="portrait portrait-oldenburg">
+              <img src="imagenes/artistas/claes-oldenburg.jpg" alt="" loading="lazy">
+            </div>
+            <div class="artist-content">
+              <span class="artist-index">04 / OBJETO</span>
+              <h3>CLAES<br>OLDENBURG</h3>
+              <p>Agrandó objetos comunes hasta convertirlos en esculturas sorprendentes.</p>
+              <button class="artist-work" type="button" data-artist="oldenburg" aria-label="Ampliar FLOOR BURGER de Claes Oldenburg"><img src="imagenes/obras/floor-burger.jpg" alt="FLOOR BURGER de Claes Oldenburg" loading="lazy"><span>OBRA CLAVE: FLOOR BURGER <b aria-hidden="true">↗</b></span></button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="obras" class="section works" aria-labelledby="works-title">
+        <div class="section-top">
+          <span class="section-num">03 / 05</span>
+          <span class="section-label">TOCÁ UNA OBRA PARA CONOCERLA</span>
+        </div>
+        <div class="works-grid" id="works-grid">
+          <h2 id="works-title" class="works-center">OBRAS<br>PRINCIPALES</h2>
+        </div>
+      </section>
+      <section id="galeria" class="section gallery" aria-labelledby="gallery-title">
+        <div class="section-top">
+          <span class="section-num">04 / 05</span>
+          <span class="section-label">UNA EXPLOSIÓN VISUAL</span>
+        </div>
+        <h2 id="gallery-title">GALERÍA <span>POP!</span></h2>
+        <p class="section-lead">Un pequeño universo de formas, color y cultura visual. Tocá cualquier pieza para verla más grande.</p>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </section>
+      <section id="contacto" class="section contact" aria-labelledby="contact-title">
+        <div class="section-top">
+          <span class="section-num">05 / 05</span>
+          <span class="section-label">HABLEMOS</span>
+        </div>
+        <div class="contact-wrap">
+          <div class="contact-heading">
+            <span class="contact-star" aria-hidden="true">✳</span>
+            <h2 id="contact-title">LET'S<br><span>POP!</span></h2>
+            <p>¿Tenés una idea, pregunta o comentario? ¡Escribime!</p>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <label for="nombre">TU NOMBRE</label>
+            <input id="nombre" name="nombre" autocomplete="name" required placeholder="¿Cómo te llamás?">
+            <label for="email">TU EMAIL</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="hola@ejemplo.com">
+            <label for="mensaje">TU MENSAJE</label>
+            <textarea id="mensaje" name="mensaje" required rows="5" placeholder="Contame tu idea..."></textarea>
+            <button class="btn" type="submit">ENVIAR MENSAJE ↗</button>
+            <p class="form-note">Se abrirá tu aplicación de correo con el mensaje preparado.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <strong>POP!</strong>
+      <span>UN RECORRIDO POR EL POP ART</span>
+      <a href="#inicio">VOLVER ARRIBA ↑</a>
+    </footer>
+    <dialog id="art-modal" class="art-modal" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Cerrar ventana">×</button>
+      <div class="modal-art" id="modal-art"></div>
+      <div class="modal-copy">
+        <span id="modal-kicker"></span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <p id="modal-detail"></p>
+      </div>
+    </dialog>
+  </body>
+</html>
